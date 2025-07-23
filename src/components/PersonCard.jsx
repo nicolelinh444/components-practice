@@ -1,6 +1,7 @@
+ // creates card to fill out for each person
 function PersonCard({name, age, occupation}) {
 return (
-    // creates card to fill out for each person
+     // props for name, age, and occupation
     <div>
     <h2>{name}</h2>
     <p>Age: {age}</p>
@@ -9,4 +10,5 @@ return (
 );
 }
 
+// export so that it can be used in other files
 export default PersonCard;
